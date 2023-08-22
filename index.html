@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <div>
+      <div class="brand">
         <svg
           width="94"
           height="82"
@@ -847,42 +847,40 @@
           <li>Promoción</li>
         </ul>
       </nav>
-      <img src="./img/burger-menu.png" alt="Icono del menu de navegación" />
+      <div>
+        <img src="./img/burger-menu.png" alt="Icono del menu de navegación" />
+      </div>
     </header>
     <main>
-      <div class="section">
+      <div class="section-1">
         <h2>Podio de Pizzas</h2>
-        <div>
-          <h3>Pizzas top 5</h3>
-          <ol>
-            <li>Muzzarella</li>
-            <li>Hawaiana</li>
-            <li>Muzzarella J&Morron</li>
-            <li>Fugazzeta</li>
-            <li>Calabresa/li></li>
-          </ol>
+        <div class="pizzas-top">
+          <div class="pizzas-top__ranking">
+            <h3>Pizzas top 5</h3>
+            <ol>
+              <li>Muzzarella</li>
+              <li>Hawaiana</li>
+              <li>Muzzarella J&Morron</li>
+              <li>Fugazzeta</li>
+              <li>Calabresa</li>
+            </ol>
+          </div>
+          <div>
+            <img
+              src="./img/PizzaFalling.jpg"
+              alt="Ingredientes cayendo sobre masa de pizza" />
+          </div>
         </div>
-        <img
-          src="./img/PizzaFalling.jpg"
-          alt="Ingredientes cayendo sobre masa de pizza" />
       </div>
-      <div class="section">
-        <img
+      <div class="section-2">
+        <!-- <img
           src="./img/delivery.jpg"
-          alt="Persona feliz sobre motocicleta haciendo delivery de una pizza" />
+          alt="Persona feliz sobre motocicleta haciendo delivery de una pizza" /> -->
         <h2>Envío gratis <span>comprando</span> 2 pizzas</h2>
       </div>
     </main>
-    <footer class="main-footer">
-      <nav class="footer__nav">
-        <ul>
-          <li>Home</li>
-          <li>Contacto</li>
-          <li>Ranking</li>
-          <li>Promoción</li>
-        </ul>
-      </nav>
-      <div class="main-footer__brand">
+    <footer>
+      <div class="brand">
         <svg
           width="94"
           height="82"
@@ -1713,6 +1711,14 @@
           >
         </h1>
       </div>
+      <nav class="footer-nav">
+        <ul>
+          <li>Home</li>
+          <li>Contacto</li>
+          <li>Ranking</li>
+          <li>Promoción</li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
