@@ -1,4 +1,4 @@
 # front-actividad-c11
 Actividad front-end clase 11: Pizzería
 
-![Screenshot _pizzeria](https://github.com/and-fer/fe-c11-pizzeria.github.io/assets/67981999/f6c62ef1-e45a-493b-a397-cc9e79ba6fb8)
+![Screenshot -pizzeria](https://github.com/and-fer/fe-c11-pizzeria.github.io/assets/67981999/86dbd235-901c-48d5-a11c-a4037b24f30c)
